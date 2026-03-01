@@ -57,7 +57,6 @@
         }
 
         if (!$err) {
-            include 'connect.php';
             $sql = "UPDATE `cauthu` SET
                 `ten_cau_thu` = '" . $_POST['name'] . "',
                 `tuoi` = '" . $_POST['age'] . "',
