@@ -68,7 +68,7 @@
                             <td><?php echo $value['quoc_tich'] ?></td>
                             <td><?php echo $value['vi_tri'] ?></td>
                             <td><?php echo $value['luong'] ?></td>
-                            <td><a href="">edit</a></td>
+                            <td><a href="edit.php?id=<?php echo $value['id'] ?>">edit</a></td>
                             <td><a href="delete.php?id=<?php echo $value['id'] ?>">delete</a></td>
                         </tr>
                     <?php
