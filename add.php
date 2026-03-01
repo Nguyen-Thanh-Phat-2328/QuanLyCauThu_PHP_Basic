@@ -81,6 +81,7 @@
         <p class="err"><?php echo $messageSalary ?></p>
 
         <button name="submit">Thêm</button>
-    </form>  
+    </form>
+    <a href="index.php"><button>Trang chủ</button></a>  
 </body>
 </html>
